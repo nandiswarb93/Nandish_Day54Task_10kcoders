@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+ <input type="radio" name="snacks" id="radio1" class="nandi" onclick="bhelpuri()"> 
+ <label for="radio1">bhelpuri</label>
+ 
+ <input type="radio" name="snacks" id="radio2" class="nandu" onclick="panipuri()">
+ <label for="radio2">panipuri</label>
+
+
+ <img src="./snacks.webp" alt="" height="200px" width="200px" id="snack">
+
+<script>
+    snack = document.getElementById("snack")
+
+function panipuri()
+{
+    snack.setAttribute("src","./panipuri.jpeg")
+}
+function bhelpuri()
+{
+    snack.setAttribute("src","./bhel.jpeg")
+}
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
